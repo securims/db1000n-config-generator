@@ -1,0 +1,10 @@
+http:
+  - https://comebackalive.info/
+  - www.ukcomebackalive.com
+  - https://b
+tcp:
+  - ip: 185.141.25.244
+    ports: [21, 25, 53, 110]
+udp:
+  - ip: 185.141.25.244
+    ports: [21, 25, 53, 110]
