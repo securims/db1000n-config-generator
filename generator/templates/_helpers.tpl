@@ -28,4 +28,7 @@ jobs:
       interval_ms: 1
 {{- end }}
 {{- end }}
+{{- with .Values.other }}
+{{ . | toYaml | nindent 2 }}
+{{- end }}
 {{- end }}
